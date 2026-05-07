@@ -8,7 +8,10 @@ class Ash < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", *std_npm_args
+    libexec.install Dir["*"]
+    cd libexec do
+      system "npm", "install", "--omit=dev", "--no-save", "--ignore-scripts"
+    end
     bin.install_symlink libexec/"bin/ash"
   end
 
