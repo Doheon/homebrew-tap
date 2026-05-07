@@ -1,8 +1,8 @@
 class Ash < Formula
   desc "Distributed P2P AI coding agent network — share idle compute, earn credits"
   homepage "https://github.com/Doheon/agent-share"
-  url "https://registry.npmjs.org/@doheon/ash/-/ash-0.1.3.tgz"
-  sha256 "4d7c3a4e80690b54c3374700cc1f0e17a66fd82505001c168575610f3ca5afcf"
+  url "https://registry.npmjs.org/@doheon/ash/-/ash-0.1.4.tgz"
+  sha256 "63881bbd99ba4092f586633840a1213f81d4188914473056425dc187974aa455"
   license "MIT"
 
   depends_on "node"
